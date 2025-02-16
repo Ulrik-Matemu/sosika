@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 localStorage.setItem('vendorName', data.vendorName);
                 localStorage.setItem('vendorId', data.vendorId);
                 alert('Login successful!');
-                window.location.href = 'vendor/dashboard.html';
+                window.location.href = 'dashboard.html';
             } else {
                 alert('Login failed: ' + data.message);
             }
