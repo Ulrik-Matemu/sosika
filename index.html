@@ -18,7 +18,7 @@
     <section class="home">
         <div class="details">
             <h1>Welcome To <span>Sosika</span></h1>
-            <h2>Hungry and Lazy? We've Got You Covered Baby.</h2>
+            <h2>Hungry and Busy? We've Got You Covered Baby.</h2>
         </div>
         <div class="illustrations">
             <img src="img/delivery.svg">
@@ -28,21 +28,27 @@
         <h2>Get the App For:</h2>
         <div class="action-buttons">
             <button onclick="navigateVendor()">Vendor 🍔</button>
-            <button>Foodie 🤤</button>
-            <button>Delivery Guy 🚲</button>
+            <button onclick="navigateFoodie()">Foodie 🤤</button>
+            <button onclick="navigateDeliveryGuy()">Rider 🚲</button>
         </div>
     </section>
     <section class="footer">
         <div class="f-details">
-            <p><a href="#">Become a Partner</a></p>
-            <p><a href="#">Be the First to Know</a></p>
-            <p><a href="#">Contact Us</a></p>
+            <p><a href="+255760903468">Become a Partner</a></p>
+            <p><a href="+255760903468">Be the First to Know</a></p>
+            <p><a href="+255760903468">Contact Us</a></p>
         </div>
         <p>© 2025 Sosika</p>
     </section>
     <script>
         function navigateVendor() {
-            window.location.href = 'vendor/index.html';
+            window.location.href = 'https://ulrik-matemu.github.io/sosika-vendor/';
+        }
+        function navigateFoodie() {
+            window.location.href = 'https://ulrik-matemu.github.io/app.sosika/';
+        }
+        function navigateDeliveryGuy() {
+            window.location.href = 'https://ulrik-matemu.github.io/sosika-delivery/';
         }
     </script>
 </body>
